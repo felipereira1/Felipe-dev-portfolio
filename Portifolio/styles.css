@@ -185,21 +185,58 @@ main {
 .skills img {
   width: 70px;
 }
-.projects{border: #007bff 1px solid;
+.projects {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.project1 {border: #00ff40 1px solid;
+.projects h2 {
+  font-family: "audioWide", sans-serif;
+  font-size: 3.5rem;
+  color: #00b7ff;
+  padding: 2rem 0rem 3rem 0rem;
+}
+.project1 {
+  border: #00a2ff 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90vw;
 }
-.project1-figure{border: #ff0015 1px solid;
+.project1-figures {
+  border: #ff0015 1px solid;
   width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.project1-figure img {
-  width: 100px;
+.project1-image {
+  padding: 2rem 0rem 0rem 0rem;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+.project1-figures p {
+  font-family: "audioWide", sans-serif;
+  font-size: 1.7rem;
+  color: #41acc7;
+}
+.project1-tecs {
+  display: flex;
+  gap: 1rem;
+}
+.project1-tecs img {
+  width: 55px;
+  height: auto;
+  gap: 100rem;
+}
+.project1-description {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 80%;
 }
