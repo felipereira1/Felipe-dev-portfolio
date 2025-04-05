@@ -10,6 +10,7 @@
       name="keywords"
       content="programação,front-end,back-end,portfolio,desenvolvedor" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Responsive.css" />
     <title>Felipe Pereira | Desenvolvedor</title>
   </head>
   <body>
@@ -24,9 +25,8 @@
         <h1 id="name">Felipe Dev</h1>
         <ul class="nav-menu">
           <li><a href="#home">Home</a></li>
-          <li><a href="#main">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#main">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
         </ul>
       </nav>
       <section class="headline">
@@ -59,23 +59,45 @@
         </li>
           </a>
         </ul>
-    <div class="knowledge">
-      <p>Conhecimentos</p>
-      <ul class="skills">
-       <li><img src="Assets/Icons/html-5-svgrepo-com.svg" alt="html5" /></li>
-       <li><img src="Assets/Icons/css-3-svgrepo-com.svg" alt="css3" /></li>
-       <li><img src="Assets/Icons/tailwind-svgrepo-com.svg" alt="Tailwind" /></li>
-       <li><img src="Assets/Icons/sass-svgrepo-com.svg" alt="sass" /></li>
-       <li><img src="Assets/Icons/javascript-svgrepo-com.svg" alt="Javascript" /></li>
-       <li><img src="Assets/Icons/react-svgrepo-com.svg" alt="React" /></li>
-       <li><img src="Assets/Icons/typescript-svgrepo-com.svg" alt="Typescript" /></li>
-     </ul>
-    </div>
       </section>
     </header>
-      <main id="main">
-        <section class="projects">
+    <main id="main">
+      <section class="projects">
+          <div class="knowledge">
+            <h3>Conhecimentos:</h3>
+            <ul class="skills">
+             <li><img src="Assets/Icons/html-5-svgrepo-com.svg" alt="html5" /></li>
+             <li><img src="Assets/Icons/css-3-svgrepo-com.svg" alt="css3" /></li>
+             <li><img src="Assets/Icons/tailwind-svgrepo-com.svg" alt="Tailwind" /></li>
+             <li><img src="Assets/Icons/sass-svgrepo-com.svg" alt="sass" /></li>
+             <li><img src="Assets/Icons/javascript-svgrepo-com.svg" alt="Javascript" /></li>
+             <li><img src="Assets/Icons/react-svgrepo-com.svg" alt="React" /></li>
+             <li><img src="Assets/Icons/typescript-svgrepo-com.svg" alt="Typescript" /></li>
+           </ul>
+          </div>
           <h2>Projetos</h2>
+          <article class="project1">
+            <figure class="project1-figures">
+              <img class="project1-image" src="Assets/Images/teste.png" alt="teste" />
+              <div class="project1-tecs">
+                <p>Tecnologias usadas:</p>
+                <img src="Assets/Icons/html-5-svgrepo-com.svg" alt="html">
+                <img src="Assets/Icons/css-3-svgrepo-com.svg" alt="css">
+                <img src="Assets/Icons/sass-svgrepo-com.svg" alt="sass">
+                <img src="Assets/Icons/javascript-svgrepo-com.svg" alt="javascript">
+              </div>
+            </figure>
+            <div class="project1-description">
+              <h3>E-Comerce</h3>
+              <p>
+                Desenvolvi um e-commerce moderno e responsivo, projetado para oferecer uma experiência de compra intuitiva e eficiente. A plataforma permite que usuários naveguem por produtos, adicionem itens ao carrinho, realizem pagamentos e acompanhem seus pedidos em tempo real.
+              </p>
+              <ul class="project1-links">
+                <li><a href="https://github.com/felipereira1" target="_blank" rel="noopener noreferrer">Site</a></li>
+                <li><a href="https://github.com/felipereira1/Felipe-dev-portfolio/tree/main/Projetos%201" target="_blank" rel="noopener noreferrer">Código</a></li>
+              </ul>
+            </div>
+          </article>
           <article class="project1">
             <figure class="project1-figures">
               <img class="project1-image" src="Assets/Images/teste.png" alt="teste" />
@@ -100,5 +122,24 @@
           </article>
         </section>
       </main>
+      <footer id="footer">
+        <div class="footer-container">
+          <p>&copy; 2024 Felipe Pereira. Todos os direitos reservados.</p>
+          <ul class="footer-nav">
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="https://github.com/felipereira1" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/felipe-pereira-724a59158/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+          <p>Desenvolvido por Felipe Pereira. Código disponível no <a href="https://github.com/felipereira1/Felipe-dev-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+          <div class="used-tecs">
+            <h3>Tecnologias usadas:</h3>
+            <ul class="used-tecs-list">
+             <li><img src="Assets/Icons/html-5-svgrepo-com.svg" alt="html5" /></li>
+             <li><img src="Assets/Icons/css-3-svgrepo-com.svg" alt="css3" /></li>
+           </ul>
+          </div>
+        </div>
+      </footer>
         </body>
 </html>
