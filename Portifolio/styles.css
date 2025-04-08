@@ -74,61 +74,6 @@ footer {
 .nav-button {
   display: none;
 }
-
-@media (max-width: 900px) {
-  .nav-button {
-    display: block;
-    cursor: pointer;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-    margin: 1rem 2rem 0rem 0rem;
-  }
-
-  .nav-button span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background: rgb(255, 255, 255);
-    transition: 0.3s;
-    z-index: 1000;
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: 10px;
-    left: -100%;
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
-    transition: 0.3s;
-    font-size: 1.3rem;
-    z-index: 999;
-    gap: 2.3rem;
-    padding-right: 1rem;
-  }
-  #name {
-    font-size: 1.5rem;
-  }
-
-  #nav-toggle:checked ~ .nav-menu {
-    left: 0;
-  }
-
-  #nav-toggle:checked ~ .nav-button span:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  #nav-toggle:checked ~ .nav-button span:nth-child(2) {
-    opacity: 0;
-  }
-
-  #nav-toggle:checked ~ .nav-button span:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-}
 .headline {
   font-family: "audioWide", sans-serif;
   font-size: 1.5rem;
@@ -163,34 +108,39 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2rem;
   list-style: none;
 }
 .contacts img {
   display: flex;
   width: 70px;
 }
-.knowledge {  padding-top: 1rem;
+.knowledge {
+  padding-top: 1rem;
   border-radius: 10px;
+  height: 40vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
 }
 .knowledge h3 {
   font-family: "audioWide", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #00b7ff;
 }
 .knowledge img {
-  width: 40px;
+  width: 60px;
 }
+
 .skills {
   display: flex;
   gap: 1rem;
   list-style: none;
 }
 .projects {
-  gap: 4rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -202,15 +152,16 @@ footer {
   padding: 2rem 0rem 3rem 0rem;
 }
 .project1 {
-  border: #454545 2px solid;
+  border: #454545 4px solid;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90vw;
+  margin-bottom: 10rem;
 }
 .project1-figures {
-  border-right: #454545 2px solid;
+  border-right: #454545 4px solid;
   width: 60vw;
   display: flex;
   justify-content: center;
