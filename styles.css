@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Poppins";
-  src: url(Assets/Fonts/Poppins-Medium.ttf);
+  src: url(Portifolio/Assets/Fonts/Poppins-Medium.ttf);
 }
 
 @font-face {
   font-family: "audioWide";
-  src: url(Assets/Fonts/Audiowide-Regular.ttf);
+  src: url(portifolio/Assets/Fonts/Audiowide-Regular.ttf);
 }
 * {
   margin: 0;
@@ -17,17 +17,17 @@
 }
 
 header {
-  background-image: url(Assets/Images/HeaderBackground.webp);
+  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 main {
-  background-image: url(Assets/Images/HeaderBackground.webp);
+  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 footer {
-  background-image: url(Assets/Images/HeaderBackground.webp);
+  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
