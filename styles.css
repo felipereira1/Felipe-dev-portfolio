@@ -17,17 +17,17 @@
 }
 
 header {
-  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
+  background-image: url(Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 main {
-  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
+  background-image: url(Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
 footer {
-  background-image: url(portifolio/Assets/Images/HeaderBackground.webp);
+  background-image: url(Assets/Images/HeaderBackground.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -418,5 +418,11 @@ footer {
   }
   .used-tecs img {
     width: clamp(30px, 7vw, 7vw);
+  }
+  @media only screen and (orientation: landscape) {
+    .headline {
+      height: auto;
+      padding-bottom: 5vh;
+    }
   }
 }
