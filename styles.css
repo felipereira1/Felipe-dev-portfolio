@@ -58,6 +58,7 @@ footer {
 #name {
   font-family: "audioWide", sans-serif;
   font-size: clamp(35px, 2.5vw, 4vw);
+  padding-left: 2rem;
 }
 .nav-menu a {
   font-family: "audioWide", sans-serif;
@@ -325,6 +326,7 @@ footer {
     padding-right: 1rem;
   }
   #name {
+    padding-left: 1rem;
     font-size: clamp(22px, 5vw, 5vw);
   }
 
@@ -344,17 +346,22 @@ footer {
   #nav-toggle:checked ~ .nav-button span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .headline {
+    padding: 2vh;
+    height: auto;
+  }
 
   .headline h2 {
-    font-size: clamp(25px, 4vw, 5vw);
+    font-size: clamp(27px, 4vw, 5vw);
     padding-right: clamp(100px, 30%, 30%);
   }
   .headline h3 {
-    font-size: clamp(20px, 4vw, 4vw);
+    padding: 0.5rem;
+    font-size: clamp(22px, 4vw, 4vw);
     padding-left: clamp(80px, 15%, 15%);
   }
   .headline p {
-    font-size: clamp(15px, 3vw, 5vw);
+    font-size: clamp(17px, 3vw, 5vw);
   }
   .knowledge {
     padding-top: 2vh;
@@ -394,10 +401,10 @@ footer {
     width: clamp(40px, 7vw, 7vw);
   }
   .project1-description h3 {
-    font-size: clamp(20px, 4vw, 4vw);
+    font-size: clamp(22px, 4vw, 4vw);
   }
   .project1-description p {
-    font-size: clamp(15px, 3vw, 4vw);
+    font-size: clamp(17px, 3vw, 4vw);
   }
   .project1-links {
     gap: 3rem;
@@ -408,10 +415,10 @@ footer {
     padding: 1rem 2rem;
   }
   .footer-container p {
-    font-size: clamp(15px, 2.5vw, 4vw);
+    font-size: clamp(18px, 2.5vw, 4vw);
   }
   .footer-nav li a {
-    font-size: clamp(16px, 3vw, 4vw);
+    font-size: clamp(18px, 3vw, 4vw);
   }
   .used-tecs h3 {
     font-size: clamp(20px, 4vw, 4vw);
@@ -419,10 +426,10 @@ footer {
   .used-tecs img {
     width: clamp(30px, 7vw, 7vw);
   }
-}
-@media only screen and (orientation: landscape) {
-  .headline {
-    height: auto;
-    padding-bottom: 5vh;
+  @media only screen and (orientation: landscape) {
+    .headline {
+      height: auto;
+      padding-bottom: 5vh;
+    }
   }
 }
